@@ -40,6 +40,7 @@ namespace TokDCereja_back_end.Controllers
         {
             return await _context.Aprendizados
                 .Where(a => !a.IsDeleted)
+                .OrderBy(a => a.Categoria) // Ordenar por Categoria
                 .ToListAsync();
         }
 

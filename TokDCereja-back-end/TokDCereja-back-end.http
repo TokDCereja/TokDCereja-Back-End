@@ -1,0 +1,6 @@
+@TokDCereja_back_end_HostAddress = http://localhost:5256
+
+GET {{TokDCereja_back_end_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

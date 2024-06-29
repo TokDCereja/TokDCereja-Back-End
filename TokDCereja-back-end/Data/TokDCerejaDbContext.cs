@@ -15,6 +15,19 @@ namespace TokDCereja_back_end.Data
 
         public DbSet<Aprendizado> Aprendizados { get; set; }
 
+        public DbSet<Caixa> Caixas { get; set; }
+
+        public DbSet<Estoque> Estoques { get; set; }
+
+        public DbSet<Feedback> Feedbacks { get; set; }
+
+        public DbSet<FormaDePagamento> FormasDePagamentos { get; set; }
+        public DbSet<Precificacao> Precificacoes { get; set; }
+
+        public DbSet<TabelaNutricional> TabelasNutricionais { get; set; }
+        public DbSet<VitrineVirtual> VitrinesVirtuais { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

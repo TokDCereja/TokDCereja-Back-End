@@ -3,7 +3,6 @@
     public class Estoque
     {
         public Guid Id { get; set; }
-        public Guid FerramentaId { get; set; }
         public string? Ingrediente { get; set; }
         public int QuantidadeMin { get; set; }
         public int QuantidadeMax { get; set; }

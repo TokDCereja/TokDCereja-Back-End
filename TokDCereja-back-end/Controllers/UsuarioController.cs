@@ -82,7 +82,7 @@ namespace TokDCereja_back_end.Controllers
         public async Task<ActionResult<IEnumerable<Usuario>>> ObterUsuarios()
         {
             return await _context.Usuarios
-                //.Where(u => !u.IsDeleted)
+                .Where(u => !u.IsDeleted)
                 .ToListAsync();
         }
 

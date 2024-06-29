@@ -10,7 +10,7 @@
         public float TotalVenda { get; set; }
         public float FundoReserva { get; set; }
         public float CapitalDeGiro { get; set; }
-        public DateTime DataUltimaAtualizacao { get; set; } = DateTime.Now;
+        public DateTime DataUltimaAtualizacao { get; set; } = DateTime.Now; // puxar data atual
         public bool IsDeleted { get; set; } = false;
     }
 }

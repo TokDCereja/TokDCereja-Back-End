@@ -4,14 +4,13 @@
     {
         public Guid Id { get; set; }
 
-        public string Avaliacao { get; set; }
-        public DateTime DataFeeedback { get; set; }
+        public string? Avaliacao { get; set; }
 
         public Guid UsuarioId { get; set; }
 
         public List<Usuario> Usuarios { get; set; }
 
-        public DateTime DataFeedback { get; set; } = DateTime.Now;
+        public DateTime DataFeedback { get; set; } = DateTime.Now; // puxar data atual
 
         public bool IsDeleted { get; set; } = false;
     }

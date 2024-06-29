@@ -5,7 +5,7 @@
         public Guid Id { get; set; }
 
         public float Valor { get; set; }
-        public DateTime DataHistoricoCaixa { get; set; } = DateTime.Now;
+        public DateTime DataHistoricoCaixa { get; set; } = DateTime.Now; // puxar data atual
         public bool IsDeleted { get; set; } = false;
     }
 }

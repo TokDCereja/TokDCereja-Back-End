@@ -3,7 +3,7 @@
     public class TabelaNutricional
     {
         public Guid Id { get; set; }
-        public string NomeReceita { get; set; }
+        public string? NomeReceita { get; set; }
         public float Carboidrato { get; set; }
         public float Proteina { get; set; }
         public float GorduraSaturada { get; set; }
@@ -15,7 +15,7 @@
         public DateTime DataValidade { get; set; }
         public float Quantidade { get; set; }
         public float Gramas { get; set; }
-        public string TipoProdutoFinal { get; set; }
+        public string? TipoProdutoFinal { get; set; }
         public Guid FerramentaId { get; set; }
     }
 }

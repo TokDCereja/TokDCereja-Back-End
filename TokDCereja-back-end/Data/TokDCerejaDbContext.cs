@@ -13,6 +13,9 @@ namespace TokDCereja_back_end.Data
 
         public DbSet<Agenda> Agendas { get; set; }
 
+        public DbSet<Aprendizado> Aprendizados { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Usuario>()

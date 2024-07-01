@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TokDCereja_back_end.Data;
 
@@ -11,9 +12,11 @@ using TokDCereja_back_end.Data;
 namespace TokDCereja_back_end.Migrations
 {
     [DbContext(typeof(TokDCerejaDbContext))]
-    partial class TokDCerejaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240630164009_TesteOff01")]
+    partial class TesteOff01
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -11,5 +11,6 @@
         public DateTime DataUltimaAtualizacao { get; set; } = DateTime.Now; // puxar data atual
 
         public bool IsDeleted { get; set; } = false;
+
     }
 }
